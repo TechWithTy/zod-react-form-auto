@@ -1,0 +1,14 @@
+node_modules
+src
+*.map
+*.log
+*.test.*
+*.spec.*
+coverage
+example
+examples
+.storybook
+vite.config.*
+rollup.config.*
+tsup.config.*
+tsconfig.json

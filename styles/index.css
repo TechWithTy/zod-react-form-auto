@@ -1,0 +1,27 @@
+/* Minimal default styles for zod-react-form-auto */
+
+.zrf-field {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.zrf-label {
+	font-size: 0.875rem;
+	color: var(--muted-foreground, #6b7280);
+}
+
+.zrf-input,
+.zrf-select,
+.zrf-textarea {
+	border: 1px solid var(--border, #e5e7eb);
+	background: var(--background, #fff);
+	color: var(--foreground, #111827);
+	border-radius: 0.375rem;
+	padding: 0.5rem 0.75rem;
+}
+
+.zrf-error {
+	color: #ef4444;
+	font-size: 0.75rem;
+}
