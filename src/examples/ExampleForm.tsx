@@ -172,7 +172,12 @@ export default function ExampleForm() {
 
 						{/* Password (SensitiveInput) */}
 						<div className="flex flex-col gap-1">
-							<label className="text-sm text-muted-foreground">Password</label>
+							<label
+								htmlFor="password"
+								className="text-sm text-muted-foreground"
+							>
+								Password
+							</label>
 							<SensitiveInput
 								name="password"
 								register={rightForm.register}
@@ -257,7 +262,9 @@ export default function ExampleForm() {
 
 						{/* API Key (SensitiveInput) */}
 						<div className="flex flex-col gap-1">
-							<label className="text-sm text-muted-foreground">API Key</label>
+							<label htmlFor="apiKey" className="text-sm text-muted-foreground">
+								API Key
+							</label>
 							<SensitiveInput
 								name="apiKey"
 								register={rightForm.register}
